@@ -150,7 +150,7 @@ class SortViewModel : ViewModel() {
     private suspend fun generateNumbers(): List<BarItem> = withContext(Dispatchers.Default) {
         return@withContext try {
             val random = Random(System.currentTimeMillis())
-            List(10_000) { BarItem(random.nextInt(0, 500_000_000)) }
+            List(10_000) { BarItem(random.nextInt(0, 50_000)) }
         } catch (e: OutOfMemoryError) {
             print("reduce number of generated items: ${e.message}")
             emptyList()
