@@ -1,6 +1,8 @@
 ## Info
 an android app to show a visual simulation of how fast common DSA sorting algorithms run.
 
+https://github.com/user-attachments/assets/4ca9b40c-a6d8-420c-94fb-117e48d1b3c7
+
 INFO:
 
 Single sort section: 
